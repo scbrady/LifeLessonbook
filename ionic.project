@@ -1,0 +1,10 @@
+{
+  "name": "lessonbook",
+  "app_id": "",
+  "proxies": [
+    {
+      "path": "/api",
+      "proxyUrl": "http://thelifelessonbook.com/api"
+    }
+  ]
+}

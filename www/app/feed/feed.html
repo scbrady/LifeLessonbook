@@ -1,0 +1,14 @@
+<ion-view view-title="Feed">
+  <ion-content>
+    <div class="list card" ng-repeat="lesson in vm.lessons">
+      <a href="#/post/id={{lesson.id}}">
+        <div class="item item-image" ng-bind-html="lesson.featured_image | unsafe"></div>
+        <div class="item">
+          <h2 class="fulltext" ng-bind-html="lesson.title"></h2>
+          <p class="fulltext" ng-bind-html="lesson.excerpt"></p>
+        </div>
+      </a>
+    </div>
+
+  </ionic-content>
+</ionic-view>
